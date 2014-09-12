@@ -1,0 +1,42 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	background-color: #bbddcc;
+}
+
+#container {
+	width: 70%;
+	margin: 0 auto;
+	background-color: #3399cc;
+	overflow: hidden;
+	border-radius: 5px;
+	box-shadow: 0 0 30px #ff0000;
+	margin-top: 100px;
+}
+
+#left-panel {
+	width:160px;
+}
+
+#right-panel {
+	width: 460px;
+}
+
+.panel {
+	float: left;
+	padding: 20px;
+}
+#random-picture {
+	width: 100%;
+	border: 3px solid black;
+}
+
+#random-picture:hover {
+	width:90%;
+}
+a {
+	color: #ffffff;
+}
+
+a:hover {
+	color: #dddddd;
+}
